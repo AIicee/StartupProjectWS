@@ -9,12 +9,10 @@ namespace PrjWebServicesConsole
     class Patient
     {
         public string Name { get; set; }
-        public string Location { get; set; }
 
-        public Patient(string name, string location)
+        public Patient(string name)
         {
             this.Name = name;
-            this.Location = location;
         }
     }
 }
